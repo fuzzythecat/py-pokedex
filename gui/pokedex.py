@@ -29,6 +29,13 @@ class QPokedex(QMainWindow):
         self.load_button.setFlat(True)
         self.load_button.clicked.connect(self.load_image)
 
+        # initialize the predict button
+        self.predict_button = QPushButton("PREDICT", self)
+        self.predict_button.setGeometry(574, 448, 114, 56)
+        self.predict_button.setStyleSheet("font: bold 12px;")
+        self.predict_button.setFlat(True)
+        self.predict_button.clicked.connect(self.predict_image)
+
         # initialize name display
         self.name_label = QLabel("Name", self)
         self.name_label.setAlignment(Qt.AlignCenter | Qt.AlignVCenter)

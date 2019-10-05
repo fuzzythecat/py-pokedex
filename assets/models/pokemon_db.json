@@ -1,0 +1,22 @@
+{
+	"charmander": {
+		"height": "60.96cm\"",
+		"weight": "8.48kg"
+	},
+	"bulbasaur": {
+		"height": "71.12cm\"",
+		"weight": "6.89kg"
+	},
+	"squirtle": {
+		"height": "50.8cm",
+		"weight": "8.98kg"
+	},
+	"pikachu": {
+		"height": "40.64cm\"",
+		"weight": "5.99kg"
+	},
+	"mewtwo": {
+		"height": "200.66cm",
+		"weight": "122.01kg"
+	}
+}

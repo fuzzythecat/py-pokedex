@@ -1,7 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication
-
-from gui.pokedex import QPokedex
+from pokedex import QPokedex
 
 
 def main():
